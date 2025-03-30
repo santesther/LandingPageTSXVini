@@ -33,7 +33,7 @@ const transporter = nodemailer.createTransport({
   
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: "esthersant.edu@gmail.com",
+      to: "psi.viniciussantana@gmail.com",
       subject: subject || "Nova mensagem de contato",
       text: `Nome: ${name}\nEmail: ${email}\n\nMensagem:\n${message}`,
     }

@@ -24,7 +24,7 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
           </AccordionTrigger>
           <AccordionContent
             className="px-6 pb-4 pt-2 text-gray-800 tracking-wide"
-            style={{ fontSize: '18px' }}
+            style={{ fontSize: '19px' }}
           >
             {item.answer}
           </AccordionContent>
