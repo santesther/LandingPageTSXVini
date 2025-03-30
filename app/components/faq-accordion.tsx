@@ -15,14 +15,22 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
   return (
     <Accordion type="single" collapsible className="w-full">
       {items.map((item, index) => (
-        <AccordionItem key={index} value={`item-${index}`} className="border rounded-md mb-4 bg-white">
-          <AccordionTrigger className="px-6 py-4 text-left font-medium text-gray-800 hover:no-underline">
+        <AccordionItem key={index} value={`item-${index}`} className="border rounded-md mb-4 bg-gray-50">
+          <AccordionTrigger
+            className="px-6 py-4 text-left font-medium text-gray-900 hover:no-underline tracking-wide"
+            style={{ fontSize: '22px' }}
+          >
             {item.question}
           </AccordionTrigger>
-          <AccordionContent className="px-6 pb-4 pt-2 text-gray-600">{item.answer}</AccordionContent>
+          <AccordionContent
+            className="px-6 pb-4 pt-2 text-gray-800 tracking-wide"
+            style={{ fontSize: '18px' }}
+          >
+            {item.answer}
+          </AccordionContent>
         </AccordionItem>
       ))}
-    </Accordion>
+  </Accordion>
   )
 }
 

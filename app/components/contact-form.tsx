@@ -28,21 +28,29 @@ export default function ContactForm() {
     e.preventDefault()
     setIsSubmitting(true)
     setSubmitError("")
-
+  
     try {
-      // Aqui você implementaria a lógica para enviar o formulário
-      // Por exemplo, usando fetch para enviar para uma API
-
-      // Simulando um envio bem-sucedido após 1 segundo
-      await new Promise((resolve) => setTimeout(resolve, 1000))
-
-      setSubmitSuccess(true)
-      setFormData({
-        name: "",
-        email: "",
-        subject: "",
-        message: "",
+      const response = await fetch("http://localhost:5000/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
       })
+  
+      const data = await response.json()
+  
+      if (response.ok) {
+        setSubmitSuccess(true)
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        })
+      } else {
+        throw new Error(data.message || "Erro ao enviar email")
+      }
     } catch (error) {
       setSubmitError("Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente.")
     } finally {
@@ -117,7 +125,7 @@ export default function ContactForm() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="px-6 py-3 bg-green-700 text-white font-medium uppercase hover:bg-green-800 transition-colors disabled:opacity-70"
+            className="px-6 py-3 bg-gray-600 text-white font-medium uppercase hover:bg-gray-700 transition-colors disabled:opacity-70"
           >
             {isSubmitting ? "Enviando..." : "Enviar Mensagem"}
           </button>
