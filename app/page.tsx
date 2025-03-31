@@ -217,12 +217,12 @@ export default function Home() {
                 <h2 className="text-3xl md:text-4xl font-serif mb-6 text-gray-900 tracking-wide" >
                   O sofrimento tem sentido – escutá-lo é o primeiro passo
                 </h2>
-                <p className="text-gray-900 mb-6 text-justify tracking-wide" style={{ fontSize: '22px' }}>
+                <p className="space-y-6 text-gray-900 mb-6 text-justify text-lg tracking-wide" style={{ fontSize: '22px' }}>
                   Há momentos em que a estrutura que nos sustenta começa a ruir, e é nesse ponto que a análise pode
                   fazer a diferença. Não se trata de simplesmente eliminar os sintomas, mas de escutá-los e compreender
                   o que eles revelam.
                 </p>
-                <p className="text-gray-900 mb-8 text-justify tracking-wide" style={{ fontSize: '22px' }}>
+                <p className="space-y-6 text-gray-900 mb-8 text-justify text-lg tracking-wide" style={{ fontSize: '22px' }}>
                   A psicanálise não promete uma vida sem dores, mas possibilita a construção de um caminho em que seja
                   possível estabelecer uma relação mais saudável consigo, com o outro e com a própria vida. Para isso, é
                   preciso um analista – e estou aqui para acompanhar você nesse processo de mudança.
@@ -304,7 +304,7 @@ export default function Home() {
           <div className="container mx-auto px-4 md:px-6 py-24">
             <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16">
               <div className="w-full md:w-3/5 order-2 md:order-1">
-                <h2 className="text-3xl md:text-5xl font-serif mb-8 text-gray-800 text-center">
+                <h2 className="text-3xl md:text-5xl font-serif mb-8 text-gray-900 text-center">
                   A clínica psicanalítica
                 </h2>
                 <div className="space-y-6 text-gray-900 text-justify text-lg tracking-wide" style={{ fontSize: '22px' }}>
