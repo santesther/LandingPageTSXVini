@@ -456,42 +456,86 @@ export default function Home() {
 
         <section id="contato" className="section min-h-[90vh] flex items-center bg-white">
           <div className="container mx-auto px-4 md:px-6 py-24">
-            <div className="flex flex-col md:flex-row gap-12 md:gap-16">
+            <div className="flex flex-col md:flex-row gap-8 md:gap-16">
               <div className="w-full md:w-3/5">
                 <h2 className="text-3xl md:text-5xl font-serif mb-6 text-gray-900">
                   Entre em contato e agende sua consulta
                 </h2>
                 <p className="text-gray-900 mb-8 text-justify tracking-wide" style={{ fontSize: "18px" }}>
-                Preencha o formulário abaixo para tirar dúvidas ou marcar sua primeira sessão. Estou aqui para ajudar
-                você a iniciar uma jornada de autoconhecimento e bem-estar. Se preferir, entre em contato diretamente
-                pelo WhatsApp ou e-mail.
+                  Preencha o formulário abaixo para tirar dúvidas ou marcar sua primeira sessão. Estou aqui para ajudar
+                  você a iniciar uma jornada de autoconhecimento e bem-estar. Se preferir, entre em contato diretamente
+                  pelo WhatsApp ou e-mail.
                 </p>
-              <ContactForm />
-            </div>
+                <ContactForm />
+              </div>
 
-            <div className="w-full md:w-2/5">
-              <div className="pt-[230px] space-y-6">
-                <div className="flex flex-col">
-                  <div className="flex items-center space-x-3">
-                    <Phone className="w-6 h-6 text-gray-900" />
-                    <h3 className="text-xl font-serif text-gray-900 uppercase">WhatsApp</h3>
+              <div className="w-full md:w-2/5">
+                <div className="pt-6 md:pt-[230px] space-y-6">
+                  <div className="flex flex-col">
+                    <div className="flex items-center space-x-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-6 h-6 text-gray-900"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                      </svg>
+                      <h3 className="text-xl font-serif text-gray-900 uppercase">WhatsApp</h3>
                     </div>
                     <p className="text-2xl font-medium text-gray-900 ml-9">(22) 99874-2955</p>
                   </div>
 
-                <div className="flex flex-col">
-                  <div className="flex items-center space-x-3">
-                    <Mail className="w-6 h-6 text-gray-900" />
-                    <h3 className="text-xl font-serif text-gray-900 uppercase">E-mail</h3>
-                  </div>
+                  <div className="flex flex-col">
+                    <div className="flex items-center space-x-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-6 h-6 text-gray-900"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                      </svg>
+                      <h3 className="text-xl font-serif text-gray-900 uppercase">E-mail</h3>
+                    </div>
                     <p className="text-2xl font-medium text-gray-900 ml-9">psi.viniciussantana@gmail.com</p>
                   </div>
 
-                <div className="flex flex-col">
-                  <div className="flex items-center space-x-3">
-                    <FileText className="w-6 h-6 text-gray-900" />
-                    <h3 className="text-xl font-serif text-gray-900 uppercase">CRP</h3>
-                  </div>
+                  <div className="flex flex-col">
+                    <div className="flex items-center space-x-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-6 h-6 text-gray-900"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" x2="8" y1="13" y2="13"></line>
+                        <line x1="16" x2="8" y1="17" y2="17"></line>
+                        <line x1="10" x2="8" y1="9" y2="9"></line>
+                      </svg>
+                      <h3 className="text-xl font-serif text-gray-900 uppercase">CRP</h3>
+                    </div>
                     <p className="text-2xl font-medium text-gray-900 ml-9">05/79562</p>
                   </div>
                 </div>
@@ -499,7 +543,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-      </main> 
+      </main>
 
       <footer className="py-6 bg-gray-100 border-t border-gray-200">
         <div className="container mx-auto px-4 md:px-6 text-center">
