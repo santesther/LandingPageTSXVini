@@ -35,7 +35,7 @@ export default function Home() {
     {
       question: "Como funciona uma análise?",
       answer:
-        "O processo psicanalítico começa com algumas entrevistas iniciais, conhecidas como entrevistas preliminares. Nesse momento, o analista escuta as demandas do paciente, busca compreender suas questões e avalia se o processo terapêutico é possível. Se ambos decidirem dar continuidade, inicia-se a análise propriamente dita. A psicanálise acontece por meio da fala do analisando, com a escuta atenta do analista, que intervém para ajudar na construção de novos sentidos",
+        "O processo psicanalítico começa com algumas entrevistas iniciais, conhecidas como entrevistas preliminares. Nesse momento, o analista escuta as demandas do paciente, busca compreender suas questões e avalia se o processo terapêutico é possível. Se ambos decidirem dar continuidade, inicia-se a análise propriamente dita. A psicanálise acontece por meio da fala do analisando, com a escuta atenta do analista, que intervém para ajudar na construção de novos sentidos.",
     },
     {
       question: "O atendimento é online ou presencial?",
