@@ -103,3 +103,19 @@ h6 {
   }
 }
 
+/* Adicione estas classes no final do arquivo para ajustar o tamanho das imagens e textos no mobile */
+
+@media (max-width: 768px) {
+  .section h2 {
+    font-size: 2rem;
+  }
+
+  .section p {
+    font-size: 1rem;
+  }
+
+  .buttonBox button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}
