@@ -463,7 +463,7 @@ export default function Home() {
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-24">
               <div className="max-w-[85%] md:max-w-3xl mx-auto text-center">
                 <h2 className="text-2xl md:text-4xl font-serif mb-6 md:mb-10 text-gray-900">Consultas e Valores</h2>
-                <div className="text-base space-y-4 md:space-y-6 text-gray-900 leading-relaxed text-sm md:text-[24px] text-center">
+                <div className="text-base space-y-4 md:space-y-6 text-gray-900 leading-relaxed text-sm md:text-[22px] text-center">
                   <p>
                     O valor das consultas não se baseia em uma relação de troca comercial ou venda de um produto. A
                     consulta psicanalítica não é um serviço a ser adquirido, mas um processo que exige uma disposição
