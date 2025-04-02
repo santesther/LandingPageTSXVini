@@ -324,7 +324,7 @@ export default function Home() {
                       fill
                       className="object-cover rounded-lg"
                       sizes="(max-width: 768px) 85vw, 40vw"
-                      unoptimized
+                      priority
                     />
                   </div>
                 </div>
@@ -468,7 +468,6 @@ export default function Home() {
                       className="object-cover object-center rounded-lg"
                       sizes="(max-width: 768px) 100vw, 800px"
                       quality={100}
-                      priority
                     />
                   </div>
                   <div className="mt-4 text-right">
