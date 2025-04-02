@@ -109,14 +109,14 @@ export default function Home() {
             </Link>
           </nav>
           <button
-            className="md:hidden"
+            className="md:hidden ml-auto"
             onClick={toggleMobileMenu}
             aria-label={mobileMenuOpen ? "Fechar menu" : "Abrir menu"}
             aria-expanded={mobileMenuOpen}
           >
             <svg
               xmlns="/images/Logo_nome.svg"
-              className="h-6 w-6 text-gray-600"
+              className="w-[150px] md:w-[230px] h-[25px] md:h-[35px]"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -210,64 +210,94 @@ export default function Home() {
       </div>
 
       <main className="flex-grow pt-24">
-        <div className="mobile-container mx-auto max-w-[90%] md:max-w-none"></div>
+        {/* Adicionando classe para centralizar o conteúdo no mobile com margens iguais */}
+        <div className="mobile-container mx-auto max-w-[90%] md:max-w-none">
           <section id="home" className="hero py-16 md:py-24">
             <div className="container mx-auto px-4 md:px-6">
-              <div className="flex flex-col md:flex-row items-center gap-12">
-                <div className="w-full md:w-1/2 flex flex-col md:order-1">
-                  <div className="order-1">
-                    <h2 className="text-2xl md:text-4xl font-serif mb-6 text-gray-900 tracking-wide">
-                      O sofrimento tem sentido – escutá-lo é o primeiro passo
-                    </h2>
-                    <p className="text-base md:text-[22px] mb-8 leading-relaxed text-gray-900 text-justify">
-                      Há momentos em que a estrutura que nos sustenta começa a ruir, e é nesse ponto que a análise pode
-                      fazer a diferença. Não se trata de simplesmente eliminar os sintomas, mas de escutá-los e
-                      compreender o que eles revelam.
-                    </p>
-                  </div>
-
-                  <div className="order-4 md:order-2">
-                    <p className="text-base md:text-[22px] mb-8 leading-relaxed text-gray-900 text-justify">
-                      A psicanálise não promete uma vida sem dores, mas possibilita a construção de um caminho em que
-                      seja possível estabelecer uma relação mais saudável consigo, com o outro e com a própria vida.
-                      Para isso, é preciso um analista – e estou aqui para acompanhar você nesse processo de mudança.
-                    </p>
-                  </div>
-
-                  <div className="hidden md:block order-2">
-                    <div id="first-desktop" className="buttonBox relative inline-block z-0">
-                      <a
-                        href="https://linktr.ee/psiviniciusgomes?utm_source=linktree_profile_share&ltsid=63eaa951-9664-43fe-b37e-346f4e9278e3"
-                        target="_blank"
-                        rel="noopener noreferrer"
+              {/* Versão desktop - mantém o layout original */}
+              <div className="hidden md:flex md:flex-row items-center gap-12">
+                <div className="w-1/2">
+                  <h2 className="text-3xl font-serif mb-6 text-gray-900 tracking-wide">
+                    O sofrimento tem sentido – escutá-lo é o primeiro passo
+                  </h2>
+                  <p className="text-[22px] mb-6 text-justify tracking-wide text-gray-900">
+                    Há momentos em que a estrutura que nos sustenta começa a ruir, e é nesse ponto que a análise pode
+                    fazer a diferença. Não se trata de simplesmente eliminar os sintomas, mas de escutá-los e
+                    compreender o que eles revelam.
+                  </p>
+                  <p className="text-[22px] mb-8 leading-relaxed text-gray-900 text-justify">
+                    A psicanálise não promete uma vida sem dores, mas possibilita a construção de um caminho em que seja
+                    possível estabelecer uma relação mais saudável consigo, com o outro e com a própria vida. Para isso,
+                    é preciso um analista – e estou aqui para acompanhar você nesse processo de mudança.
+                  </p>
+                  <div className="buttonBox relative inline-block z-0">
+                    <a
+                      href="https://linktr.ee/psiviniciusgomes?utm_source=linktree_profile_share&ltsid=63eaa951-9664-43fe-b37e-346f4e9278e3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button
+                        type="button"
+                        className="bg-gray-600 text-white px-6 py-3 relative z-1 hover:bg-gray-700 transition-colors"
                       >
-                        <button
-                          type="button"
-                          className="bg-gray-600 text-white px-6 py-3 relative z-1 hover:bg-gray-700 transition-colors"
-                        >
-                          Agende sua consulta
-                        </button>
-                      </a>
-                      <div className="border absolute top-2 left-2 w-full h-full border border-gray-400"></div>
-                      <div className="border absolute top-4 left-4 w-full h-full border border-gray-400"></div>
-                    </div>
+                        Agende sua consulta
+                      </button>
+                    </a>
+                    <div className="border absolute top-2 left-2 w-full h-full border border-gray-400"></div>
+                    <div className="border absolute top-4 left-4 w-full h-full border border-gray-400"></div>
                   </div>
                 </div>
-
-                <div className="w-full md:w-1/2 order-2 md:order-2 my-8 md:my-0">
-                  <div className="relative w-[85%] md:w-full h-[300px] md:h-[500px] mx-auto">
+                <div className="w-1/2">
+                  <div className="relative w-full h-[500px]">
                     <Image
                       src="/images/Vini-Home.jpg"
                       alt="Imagem ilustrativa sobre psicologia e terapia"
                       fill
                       className="object-cover"
-                      sizes="(max-width: 750px) 85vw, 50vw"
+                      sizes="50vw"
                     />
                   </div>
                 </div>
+              </div>
 
-                <div className="w-full order-3 md:hidden flex justify-center my-4">
-                  <div id="first-mobile" className="buttonBox relative inline-block z-0">
+              {/* Versão mobile - reorganizada na ordem desejada */}
+              <div className="flex flex-col md:hidden">
+                {/* 1. Primeiro parágrafo */}
+                <div className="mb-6">
+                  <h2 className="text-2xl font-serif mb-6 text-gray-900 tracking-wide">
+                    O sofrimento tem sentido – escutá-lo é o primeiro passo
+                  </h2>
+                  <p className="text-base md:text-[22px] mb-8 leading-relaxed text-gray-900 text-justify">
+                    Há momentos em que a estrutura que nos sustenta começa a ruir, e é nesse ponto que a análise pode
+                    fazer a diferença. Não se trata de simplesmente eliminar os sintomas, mas de escutá-los e
+                    compreender o que eles revelam.
+                  </p>
+
+                <div className="my-8">
+                  <div className="relative w-[85%] h-[300px] mx-auto">
+                    <Image
+                      src="/images/Vini-Home.jpg"
+                      alt="Imagem ilustrativa sobre psicologia e terapia"
+                      fill
+                      className="object-cover"
+                      sizes="85vw"
+                    />
+                  </div>
+                </div>
+                </div>
+
+                {/* 3. Segundo parágrafo */}
+                <div className="mb-8">
+                  <p className="text-base md:text-[22px] mb-8 leading-relaxed text-gray-900 text-justify">
+                    A psicanálise não promete uma vida sem dores, mas possibilita a construção de um caminho em que seja
+                    possível estabelecer uma relação mais saudável consigo, com o outro e com a própria vida. Para isso,
+                    é preciso um analista – e estou aqui para acompanhar você nesse processo de mudança.
+                  </p>
+                </div>
+
+                {/* 4. Botão */}
+                <div className="flex justify-center my-4">
+                  <div className="buttonBox relative inline-block z-0">
                     <a
                       href="https://linktr.ee/psiviniciusgomes?utm_source=linktree_profile_share&ltsid=63eaa951-9664-43fe-b37e-346f4e9278e3"
                       target="_blank"
@@ -287,6 +317,7 @@ export default function Home() {
               </div>
             </div>
           </section>
+          </div>
 
           <section id="sobre" className="section min-h-[90vh] flex items-center bg-gray-50">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-24">
@@ -509,7 +540,6 @@ export default function Home() {
                 </div>
 
                 <div className="w-full md:w-2/5">
-                  {/* Removido o padding-top grande no mobile, mantido apenas no desktop */}
                   <div className="pt-6 md:pt-[230px] space-y-6">
                     <div className="flex flex-col">
                       <div className="flex items-center space-x-3">
