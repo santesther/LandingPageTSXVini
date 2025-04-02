@@ -9,7 +9,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 100px; /* Ajusta o scroll para compensar o header fixo */
+  scroll-padding-top: 100px; 
 }
 
 body {
@@ -103,7 +103,6 @@ h6 {
   }
 }
 
-/* Adicione estas classes no final do arquivo para ajustar o tamanho das imagens e textos no mobile */
 
 @media (max-width: 768px) {
   .section h2 {

@@ -125,11 +125,11 @@ h6 {
 
   @media (max-width: 768px) {
     .contact-title {
-      font-size: 1rem !important; /* Tamanho menor para títulos no mobile */
+      font-size: 1rem !important; 
     }
   
     .contact-info {
-      font-size: 1.25rem !important; /* Tamanho menor para informações no mobile */
+      font-size: 1.25rem !important; 
     }
   }
 }

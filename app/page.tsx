@@ -210,11 +210,9 @@ export default function Home() {
       </div>
 
       <main className="flex-grow pt-24">
-        {/* Adicionando classe para centralizar o conteúdo no mobile com margens iguais */}
         <div className="mobile-container mx-auto max-w-[90%] md:max-w-none">
           <section id="home" className="hero py-16 md:py-24">
             <div className="container mx-auto px-4 md:px-6">
-              {/* Versão desktop - mantém o layout original */}
               <div className="hidden md:flex md:flex-row items-center gap-12">
                 <div className="w-1/2">
                   <h2 className="text-3xl font-serif mb-6 text-gray-900 tracking-wide">
@@ -260,9 +258,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Versão mobile - reorganizada na ordem desejada */}
               <div className="flex flex-col md:hidden">
-                {/* 1. Primeiro parágrafo */}
                 <div className="mb-6">
                   <h2 className="text-2xl font-serif mb-6 text-gray-900 tracking-wide">
                     O sofrimento tem sentido – escutá-lo é o primeiro passo
@@ -286,7 +282,6 @@ export default function Home() {
                 </div>
                 </div>
 
-                {/* 3. Segundo parágrafo */}
                 <div className="mb-8">
                   <p className="text-base md:text-[22px] mb-8 leading-relaxed text-gray-900 text-justify">
                     A psicanálise não promete uma vida sem dores, mas possibilita a construção de um caminho em que seja
@@ -295,7 +290,6 @@ export default function Home() {
                   </p>
                 </div>
 
-                {/* 4. Botão */}
                 <div className="flex justify-center my-4">
                   <div className="buttonBox relative inline-block z-0">
                     <a
@@ -409,7 +403,6 @@ export default function Home() {
 
         <section id="consultorio" className="section min-h-[90vh] bg-gray-50">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-24">
-              {/* Primeira divisão */}
               <div className="mb-16 md:mb-24">
                 <div className="flex items-center justify-center mb-8 md:mb-12">
                   <h2 className="text-2xl md:text-5xl font-serif text-gray-800 mr-4 md:mr-6">Meu Consultório</h2>
