@@ -17,20 +17,20 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
       {items.map((item, index) => (
         <AccordionItem key={index} value={`item-${index}`} className="border rounded-md mb-4 bg-gray-50">
           <AccordionTrigger
-            className="px-6 py-4 text-left font-medium text-gray-900 hover:no-underline tracking-wide"
-            style={{ fontSize: '22px' }}
+            className="px-6 py-4 text-left font-medium text-gray-900 hover:no-underline tracking-wide faq-question"
+            style={{ fontSize: "22px" }}
           >
             {item.question}
           </AccordionTrigger>
           <AccordionContent
-            className="px-6 pb-4 pt-2 text-gray-800 tracking-wide"
-            style={{ fontSize: '19px' }}
+            className="px-6 pb-4 pt-2 text-gray-900 tracking-wide faq-answer"
+            style={{ fontSize: "19px" }}
           >
             {item.answer}
           </AccordionContent>
         </AccordionItem>
       ))}
-  </Accordion>
+    </Accordion>
   )
 }
 

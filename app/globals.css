@@ -101,5 +101,36 @@ h6 {
   body {
     @apply bg-background text-foreground;
   }
+
+  @media (min-width: 768px) {
+    .section p {
+      font-size: 22px;
+    }
+  
+    .accordion-content {
+      font-size: 22px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .faq-question {
+      font-size: 19px !important; 
+    }
+  
+    .faq-answer {
+      font-size: 17px !important; 
+      line-height: 1.6;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .contact-title {
+      font-size: 1rem !important; /* Tamanho menor para títulos no mobile */
+    }
+  
+    .contact-info {
+      font-size: 1.25rem !important; /* Tamanho menor para informações no mobile */
+    }
+  }
 }
 
