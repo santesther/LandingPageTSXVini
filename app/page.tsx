@@ -35,7 +35,7 @@ export default function Home() {
     {
       question: "Como funciona uma análise?",
       answer:
-        "O processo psicanalítico começa com algumas entrevistas iniciais, conhecidas como entrevistas preliminares. Nesse momento, o analista escuta as demandas do paciente, busca compreender suas questões e avalia se o processo terapêutico é possível. Se ambos decidirem dar continuidade, inicia-se a análise propriamente dita. A psicanálise acontece por meio da fala do analisando, com a escuta atenta do analista, que intervém para ajudar na construção de novos sentidos.",
+        "O processo psicanalítico começa com algumas entrevistas iniciais, conhecidas como entrevistas preliminares. Nesse momento, o analista escuta as demandas do paciente, busca compreender suas questões e avalia se o processo terapêutico é possível.Se ambos decidirem dar continuidade, inicia-se a análise propriamente dita. A psicanálise acontece por meio da fala do analisando, com a escuta atenta do analista, que intervém para ajudar na construção de novos sentidos.",
     },
     {
       question: "O atendimento é online ou presencial?",
@@ -332,26 +332,14 @@ export default function Home() {
                   <h2 className="text-2xl md:text-4xl font-serif mb-6 md:mb-8 text-gray-900 text-center">Sobre mim</h2>
                   <div className="text-base md:text-[22px] mb-8 leading-relaxed text-gray-900 text-justify">
                     <p>
-                      Meu nome é Vinícius Sant'Ana Gomes e sou psicólogo pelo Instituto Superior de Ensino do CENSA, em
-                      Campos dos Goytacazes. Atuo com base na psicanálise e em sua ética, oferecendo atendimentos
-                      presenciais e online.
+                    Meu nome é Vinícius Sant'Ana Gomes, sou psicólogo formado pelo Instituto Superior de Ensino do CENSA, 
+                    em Campos dos Goytacazes. Atuo com base na psicanálise e em sua ética, oferecendo atendimentos  para adolescentes, adultos e idosos.
                     </p>
                     <p>
-                      A clínica psicanalítica, para mim, é mais do que um método terapêutico; é um modo de estar no
-                      mundo, um estilo de vida que se transmite de inconsciente para inconsciente. É um caminho que me
-                      dá liberdade, que não se encaixa em um modelo engessado de diagnóstico, rotulação ou separação dos
-                      sintomas. Em vez disso, permite olhar para a história do sujeito, para aquilo que se desenrola
-                      singularmente em cada análise.
-                    </p>
-                    <p>
-                      Além disso, tenho experiência em serviços de saúde mental, como o CAPS, o que me permitiu
-                      desenvolver um olhar atento às complexidades do sofrimento psíquico e às relações entre a clínica
-                      e a sociedade.
-                    </p>
-                    <p>
-                      Tenho especial interesse em acolher aqueles que enfrentam angústias decorrentes de conflitos
-                      internos, padrões sociais e atravessamentos culturais. Busco proporcionar um espaço seguro, onde
-                      cada um possa expressar suas inquietações e encontrar novos sentidos para sua trajetória.
+                    Além disso, por meio da minha experiência em serviços de saúde mental, desenvolvi um olhar atento para as complexidades do 
+                    sofrimento psíquico e sua relação com a sociedade. Por isso, busco acolher aqueles que vivenciam angústias resultantes de 
+                    conflitos internos e influências do meio social. Meu objetivo é proporcionar um espaço seguro, onde cada um possa expressar suas inquietações e encontrar novos 
+                    sentidos para sua trajetória. 
                     </p>
                   </div>
                 </div>
@@ -368,20 +356,15 @@ export default function Home() {
                   </h2>
                   <div className="text-base md:text-[22px] mb-8 leading-relaxed text-gray-900 text-justify">
                     <p>
-                      A clínica psicanalítica é um espaço voltado para o aprofundamento da subjetividade, onde o
-                      indivíduo tem a oportunidade de explorar seus conflitos internos, angústias e questões não
-                      resolvidas. A partir de uma escuta atenta e neutra, busca-se compreender as dinâmicas
-                      inconscientes que moldam pensamentos, emoções e comportamentos, com o objetivo de promover uma
-                      transformação significativa.
+                      A clínica psicanalítica é um espaço de investigação da subjetividade, onde o indivíduo pode explorar 
+                      seus conflitos, angústias e questões não resolvidas. Com uma escuta atenta e neutra, busca-se compreender as 
+                      dinâmicas inconscientes que influenciam pensamentos, emoções e comportamentos, promovendo transformações profundas.
                     </p>
                     <p>
-                      Na psicanálise, o paciente é incentivado a utilizar a livre associação de ideias, permitindo que
-                      seus pensamentos se conectem livremente, sem censura, o que favorece o surgimento de reflexões e
-                      insights. Em vez de oferecer conselhos, o trabalho se concentra em estimular uma análise
-                      verdadeira, com um olhar voltado para dentro, para que o sujeito possa se confrontar com suas
-                      próprias questões. Esse processo é essencial para que o paciente modifique gradualmente sua
-                      relação com seus desejos, traumas e tensões internas, alcançando maior autonomia e capacidade de
-                      lidar com suas escolhas e desafios.
+                      Mais do que um método terapêutico, a psicanálise é uma ética e um estilo de vida, que convida à investigação contínua de si.
+                      Em vez de oferecer conselhos, ela propõe um processo de análise verdadeira, no qual o paciente é incentivado a explorar 
+                      livremente seus pensamentos e emoções, permitindo que se confronte com aquilo que estrutura seu sofrimento. Esse caminho 
+                      favorece uma nova relação com seus desejos, traumas e desafios, promovendo maior autonomia.
                     </p>
                   </div>
                 </div>
@@ -490,15 +473,9 @@ export default function Home() {
                   <p>
                     O valor das consultas não se baseia em uma relação de troca comercial ou venda de um produto. A
                     consulta psicanalítica não é um serviço a ser adquirido, mas um processo que exige uma disposição
-                    genuína do sujeito. O custo de cada sessão está intimamente ligado à realidade financeira de cada
-                    paciente, respeitando suas condições, mas também simboliza um comprometimento com o próprio processo
-                    de análise.
-                  </p>
-                  <p>
-                    O valor investido na terapia, de certa forma, reflete o quanto o paciente está disposto a se dedicar
-                    ao seu processo de cuidado e autoconhecimento. Assim como a análise exige um envolvimento genuíno, o
-                    valor da consulta simboliza a disposição do sujeito em se comprometer com sua saúde emocional e
-                    psíquica, reconhecendo a importância desse processo para o seu bem-estar e desenvolvimento pessoal.
+                    genuína do sujeito. O custo de cada sessão está ligado tanto à realidade financeira do paciente 
+                    quanto ao seu compromisso com a própria análise. Trata-se de um investimento simbólico, que marca 
+                    o engajamento no processo terapêutico.
                   </p>
                 </div>
               </div>
