@@ -23,7 +23,7 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
             {item.question}
           </AccordionTrigger>
           <AccordionContent
-            className="px-6 pb-4 pt-2 text-gray-900 tracking-wide faq-answer"
+            className="px-6 pb-4 pt-2 text-gray-900 tracking-wide faq-answer text-justify"
             style={{ fontSize: "19px" }}
           >
             {item.answer}

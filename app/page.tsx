@@ -349,26 +349,22 @@ export default function Home() {
 
           <section id="terapia" className="section min-h-[90vh] flex items-center">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-24">
-              <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16">
-                <div className="w-full md:w-3/5 order-2 md:order-1">
+              <div className="flex flex-col md:flex-row items-center gap-12 md:gap-16">
+                <div className="w-full md:w-3/5 order-2 md:order-1 flex flex-col justify-center">
                   <h2 className="text-2xl md:text-4xl font-serif mb-6 md:mb-8 text-gray-800 text-center">
                     A clínica psicanalítica
                   </h2>
                   <div className="text-base md:text-[22px] mb-8 leading-relaxed text-gray-900 text-justify">
                     <p>
-                      A clínica psicanalítica é um espaço de investigação da subjetividade, onde o indivíduo pode explorar 
-                      seus conflitos, angústias e questões não resolvidas. Com uma escuta atenta e neutra, busca-se compreender as 
-                      dinâmicas inconscientes que influenciam pensamentos, emoções e comportamentos, promovendo transformações profundas.
-                    </p>
-                    <p>
-                      Mais do que um método terapêutico, a psicanálise é uma ética e um estilo de vida, que convida à investigação contínua de si.
-                      Em vez de oferecer conselhos, ela propõe um processo de análise verdadeira, no qual o paciente é incentivado a explorar 
-                      livremente seus pensamentos e emoções, permitindo que se confronte com aquilo que estrutura seu sofrimento. Esse caminho 
-                      favorece uma nova relação com seus desejos, traumas e desafios, promovendo maior autonomia.
+                      Mais do que um método terapêutico, a psicanálise é uma ética e um estilo de vida, que convida à
+                      investigação contínua de si. Em vez de oferecer conselhos, ela propõe um processo genuíno de
+                      análise, no qual o paciente é incentivado a explorar livremente seus pensamentos e emoções,
+                      permitindo que se confronte com aquilo que estrutura seu sofrimento. Esse caminho favorece uma
+                      nova relação com seus desejos, traumas e desafios, promovendo maior autonomia.
                     </p>
                   </div>
                 </div>
-                <div className="w-full md:w-2/5 order-1 md:order-2">
+                <div className="w-full md:w-2/5 order-1 md:order-2 flex items-center justify-center">
                   <div className="relative w-[85%] md:w-full h-[350px] md:h-[600px] mx-auto">
                     <Image
                       src="/images/clinica-psica.jpg"
@@ -376,7 +372,6 @@ export default function Home() {
                       fill
                       className="object-cover rounded-lg"
                       sizes="(max-width: 768px) 85vw, 40vw"
-                      unoptimized
                     />
                   </div>
                 </div>
