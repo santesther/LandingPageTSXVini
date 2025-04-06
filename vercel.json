@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/send-email",
+        "destination": "/backend-email/index.js"
+      }
+    ]
+  }
+  
