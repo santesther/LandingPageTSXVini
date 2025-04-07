@@ -71,12 +71,14 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
           <div className="logo">
             <Link href="#home" aria-label="Ir para o topo da página">
-              <Image
+            <Image
                 src="/images/Logo_nome.svg"
                 alt="Logo de Vinícius Gomes - Psicólogo"
-                width={400}
+                width={200}
                 height={50}
+                className="w-[200px] md:w-[400px]" 
                 priority
+                quality={100} 
               />
             </Link>
           </div>
@@ -115,8 +117,8 @@ export default function Home() {
             aria-expanded={mobileMenuOpen}
           >
             <svg
-              xmlns="/images/Logo_nome.svg"
-              className="w-[150px] md:w-[230px] h-[25px] md:h-[35px]"
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 text-gray-600"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -146,8 +148,8 @@ export default function Home() {
       >
         <div className="flex justify-end p-4 border-b border-gray-200">
           <button onClick={closeMobileMenu} aria-label="Fechar menu" className="text-gray-500 hover:text-gray-700">
-            <svg
-              xmlns="/images/Logo_nome.svg"
+          <svg
+              xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
