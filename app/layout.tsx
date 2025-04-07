@@ -15,7 +15,7 @@ const lato = Lato({
 
 export const metadata = {
   title: "Vinícius Gomes | Psicólogo",
-  description: "Psicólogo em São Paulo. Atendimento presencial e online. Agende sua consulta.",
+  description: "Psicólogo em Campos dos Goytacazes. Atendimento presencial e online. Agende sua consulta.",
 }
 
 export default function RootLayout({
