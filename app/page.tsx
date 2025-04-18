@@ -334,8 +334,8 @@ export default function Home() {
                   <h2 className="text-2xl md:text-4xl font-serif mb-6 md:mb-8 text-gray-900 text-center">Sobre mim</h2>
                   <div className="text-base md:text-[22px] mb-8 leading-relaxed text-gray-900 text-justify">
                     <p>
-                    Meu nome é Vinícius Sant'Ana Gomes, sou psicólogo formado pelo Instituto Superior de Ensino do CENSA, 
-                    em Campos dos Goytacazes. Atuo com base na psicanálise e em sua ética, oferecendo atendimentos  para adolescentes, adultos e idosos.
+                    Meu nome é Vinícius Sant'Ana Gomes, sou psicólogo e realizo atendimentos presenciais na cidade de Campos dos Goytacazes.
+                    Atuo com base na psicanálise e em sua ética, oferecendo atendimentos  para adolescentes, adultos e idosos.
                     </p>
                     <p>
                     Além disso, por meio da minha experiência em serviços de saúde mental, desenvolvi um olhar atento para as complexidades do 
