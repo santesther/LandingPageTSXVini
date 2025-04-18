@@ -1,38 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<b>Site Profissional para Psicólogo</b>
 
-## Getting Started
+Site profissional e responsivo para um psicólogo, desenvolvido com Next.js, React e Tailwind CSS. O site apresenta informações sobre o profissional, seus serviços, consultório e formas de contato, com design elegante e experiência de usuário otimizada para todos os dispositivos.
 
-First, run the development server:
+🚀 <b>Tecnologias Utilizadas</b>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<b>Next.js 14</b> - Framework React com renderização do lado do servidor<br>
+<b>React</b> - Biblioteca JavaScript para construção de interfaces<br>
+<b>Tailwind CSS</b> - Framework CSS utilitário para estilização rápida<br>
+<b>TypeScript</b> - Superset JavaScript com tipagem estática<br>
+<b>Google Fonts</b> - Fontes Playfair Display e Lato<br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✨ <b>Funcionalidades</b>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<b>Design Responsivo</b> - Experiência otimizada para desktop, tablet e dispositivos móveis<br>
+<b>Navegação Suave</b> - Rolagem suave entre seções com ancoragem<br>
+<b>Menu Mobile</b> - Menu lateral responsivo para dispositivos móveis<br>
+<b>Formulário de Contato</b> - Formulário interativo com validação<br>
+<b>FAQ Interativo</b> - Seção de perguntas frequentes com accordion<br>
+<b>Otimização de Imagens</b> - Carregamento otimizado de imagens com Next.js Image<br>
+<b>Acessibilidade</b> - Implementação de práticas de acessibilidade<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📋 <b>Seções do Site</b>
 
-## Learn More
+<b>Home</b> - Apresentação inicial com chamada para ação<br>
+<b>Sobre</b> - Informações sobre o psicólogo e sua abordagem<br>
+<b>Terapia Psicanalítica</b> - Detalhes sobre a abordagem psicanalítica<br>
+<b>Consultório</b> - Galeria de imagens do espaço de atendimento<br>
+<b>Consultas</b> - Informações sobre valores e processo terapêutico<br>
+<b>Dúvidas</b> - Perguntas frequentes em formato de <b>accordion</b><br>
+<b>Contato</b> - Formulário de contato e informações para agendamento<br>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# LandingPageTSXVini
-# LandingPageTSXVini
+<b>Site disponível para acesso:</b> santanagomesvinicius.com
